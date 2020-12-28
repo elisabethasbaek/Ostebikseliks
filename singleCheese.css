@@ -10,29 +10,55 @@
     font-family: 'Montserrat', sans-serif;
     padding: 0 10vw;
     text-align: center;
+    padding: 5vw 10vw;
 }
 
 .singleCheese h1{
     color: #155c72;
-	font-family: 'Merriweather', sans-serif, 'Montserrat';
+    font-family: 'Merriweather', sans-serif, 'Montserrat';
+    font-size: 4vw;
+    padding-bottom: 1rem;
 }
 
 .singleCheese li{
     font-family: 'Montserrat', sans-serif;
     list-style: none;
     color: #155c72;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+
+.singleCheese li span{
+    font-weight: 500;
+    font-size: 1.7rem;
 }
 
 .singleCheese .buttons button{
     background-color: #D9562E;
-    color: #0f4555;
-    font-size: 1rem;
-    font-weight: bold;
-    text-transform: uppercase;
     border-radius: 10px;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 0;
     margin: 2rem 1vw;
     width: 15vw;
-    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+
+.singleCheese .buttons button:hover{
+    background-color: #0f4555;  
+    color: #D9562E;
+}
+
+.singleCheese .buttons button a{
+    color: #0f4555;
+    font-size: 1rem;
+    padding: 0.5rem 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.5rem 3vw;
+}
+
+.singleCheese .buttons button a:hover{
+    color: #D9562E;
 }
 

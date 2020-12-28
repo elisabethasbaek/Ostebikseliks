@@ -9,9 +9,5 @@ if (url.has("id")) {
             document.querySelector(".price span").innerText = data.price['$numberDecimal'];
             document.querySelector(".strength span").innerText = data.strength;
             document.querySelector(".weight span").innerText = data.weight;
-
-            document.querySelector("button").addEventListener("click", function(){
-                
-            });
         });
 };
