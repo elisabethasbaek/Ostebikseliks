@@ -1,0 +1,38 @@
+.singleCheeseHeader li:nth-of-type(2) a{
+    color: #155c72;
+}
+
+.singleCheeseHeader li:nth-of-type(2) a:hover{
+    color: #D9562E;
+}
+
+.singleCheese{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 10vw;
+    text-align: center;
+}
+
+.singleCheese h1{
+    color: #155c72;
+	font-family: 'Merriweather', sans-serif, 'Montserrat';
+}
+
+.singleCheese li{
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    color: #155c72;
+}
+
+.singleCheese .buttons button{
+    background-color: #D9562E;
+    color: #0f4555;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 0.5rem 2rem;
+    margin: 2rem 1vw;
+    width: 15vw;
+    cursor: pointer;
+}
+

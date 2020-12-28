@@ -1,0 +1,16 @@
+.cheeseListItem{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 10vw;
+    text-align: end;
+}
+
+.cheese{
+    color: #155c72;
+    font-size: 2.5rem;
+    line-height: 5rem;
+}
+
+.cheese:hover{
+    font-style: italic;
+    padding-right: 2vw;
+}

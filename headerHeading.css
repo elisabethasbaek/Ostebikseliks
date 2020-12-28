@@ -1,0 +1,10 @@
+header .headline{
+    font-family: 'Merriweather', serif;
+    text-align: end;
+    font-size: 6rem;
+    color: #155c72;
+    padding: 0 10vw 3rem 10vw;
+    margin-top: 12vh;
+    line-height: 1rem;
+    letter-spacing: 1rem;
+}

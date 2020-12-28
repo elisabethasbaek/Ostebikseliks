@@ -31,9 +31,11 @@ fetch(`https://elisabeths-ostebiks.herokuapp.com/api/v1/cheeses?offset=${offset}
         let cheeseList = document.querySelector(".cheeseList");
 
         data.results.forEach(function(result) {
+            let id = result._id;
+
             let clone = cheese.content.cloneNode(true);
             clone.querySelector(".cheese").innerText = result.name;
-            //clone.querySelector(".cheese").href = `./singleCheese.html?id=${id}`;
+            clone.querySelector(".cheese").href = `./singleCheese.html?id=${id}`;
 
             cheeseList.appendChild(clone);
         })

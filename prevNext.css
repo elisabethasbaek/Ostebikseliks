@@ -1,0 +1,29 @@
+.previousNextContainer{
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    padding: 5vh 10vw 3rem 10vw;
+    text-align: end;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    font-family: 'Merriweather', sans-serif;
+    text-transform: uppercase;
+}
+
+.previousLink{
+    grid-area: 1/2/2/3;
+}
+
+.nextLink{
+    grid-area: 1/3/2/4;
+}
+
+.previousLink,
+.nextLink{
+    color: #D9562E;
+    font-size: 0.9rem;
+}
+
+.previousLink:hover,
+.nextLink:hover{
+    transform: scale(1.2);
+}
