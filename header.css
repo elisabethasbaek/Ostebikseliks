@@ -1,0 +1,16 @@
+header{
+    background-color: rgba(116, 48, 9, 0.1);
+    margin-top: 5vh;
+}
+
+header .headline{
+    font-family: 'Merriweather', serif;
+    text-align: end;
+    font-size: 6rem;
+    color: #155c72;
+    text-shadow: 3px 3px 7px rgba(54, 16, 74, 0.5);
+    padding-right: 10vw;
+    padding-bottom: 3rem;
+    margin-top: 12vh;
+    line-height: 1rem;
+}
